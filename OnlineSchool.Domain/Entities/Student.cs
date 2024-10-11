@@ -7,10 +7,10 @@ namespace OnlineSchool.Domain.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public int TeacherSubjectid { get; set; }
+        public int TeacherSubjectId { get; set; }
         public TeacherSubject TeacherSubject { get; set; }
 
         public int GroupId { get; set; }
-        public Group Group { get; set; }
+        public StudyGroup Group { get; set; }
     }
 }

@@ -7,5 +7,7 @@ namespace OnlineSchool.Domain.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
+        public virtual IEnumerable<TeacherSubject> TeacherSubjects { get; set; }
+
     }
 }

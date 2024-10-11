@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSchool", "OnlineSchool\OnlineSchool.csproj", "{C9BEC5FE-0C5B-4663-BE18-773619462D57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSchool", "OnlineSchool\OnlineSchool.csproj", "{C9BEC5FE-0C5B-4663-BE18-773619462D57}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF19D137-4268-4472-B5D6-CAD528AE0264} = {CF19D137-4268-4472-B5D6-CAD528AE0264}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSchool.Domain", "OnlineSchool.Domain\OnlineSchool.Domain.csproj", "{CF19D137-4268-4472-B5D6-CAD528AE0264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSchool.Domain", "OnlineSchool.Domain\OnlineSchool.Domain.csproj", "{CF19D137-4268-4472-B5D6-CAD528AE0264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSchool.Infrastructure", "OnlineSchool.Infrastructure\OnlineSchool.Infrastructure.csproj", "{DF2D5D23-5F73-400A-BC51-BC12EF1E32BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSchool.Infrastructure", "OnlineSchool.Infrastructure\OnlineSchool.Infrastructure.csproj", "{DF2D5D23-5F73-400A-BC51-BC12EF1E32BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF19D137-4268-4472-B5D6-CAD528AE0264} = {CF19D137-4268-4472-B5D6-CAD528AE0264}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

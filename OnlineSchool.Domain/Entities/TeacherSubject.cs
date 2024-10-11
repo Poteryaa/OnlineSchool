@@ -9,5 +9,8 @@ namespace OnlineSchool.Domain.Entities
 
         public int SubjectId { get; set; }
         public Subject Subject { get; set; }
+
+        public virtual IEnumerable<Student> Students { get; set; }
+        public virtual IEnumerable<StudyGroup> StudyGroups { get; set; }
     }
 }
